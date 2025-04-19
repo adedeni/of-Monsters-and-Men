@@ -1,0 +1,31 @@
+* {
+    margin: o;
+    padding: 0;
+    background-color: aqua;
+}
+.wrapper {
+    margin: auto;
+    width: 80%;
+}
+.video1 {
+    width: 100%;
+    border-radius: 30px;
+}
+.video2 {
+    width: 70%;
+    }
+.videowrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+.videowrapper iframe{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+}
