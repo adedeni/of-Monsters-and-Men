@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.whoelepage{
+    width: 100%;
+    height: 500px;
+    background-color: wheat;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* vertically alligning contents */
+    align-items: stretch/*this streches the div box to the top of the next box */;
+    /* vertically alligning the whole rows as a single unit*/
+    align-content: space-around;
+}
+.boxes{
+    /* this is the order of prioroty for each boxes */
+    order: 1 ;
+}
+.boxeslast{
+    order: 2;
+}
+.boxes{
+    /* this is the way to customize the sizes of each boxes the larger value the bigger the boxes
+    flex-shrink does the opposite of flex-grow
+    flex-basis tell us the amount of size of each boxes by default*/
+    background-color: aqua;
+    flex-grow: 30%;
+}
+.boxeslast{
+    background-color: red;
+    /* here is flex shrink grow and bases in a single line of code */
+    flex: 0 1 100pX;
+
+}

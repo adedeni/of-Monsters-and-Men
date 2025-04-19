@@ -1,0 +1,32 @@
+form{
+    width: 300px;
+}
+input{
+    width: 100%;
+}
+textarea{
+    resize: vertical;
+    max-height: 100px;
+}
+input, textarea{
+    outline: none;
+    border: 1px solid red;
+}
+/* this is to style only when the option has been selected by the cursor */
+input:focus, textarea:focus{
+    box-shadow: 0 0 4px yellow;
+    border: 1px solid red;
+}
+/* the two double column is to target a specific value in an HTML attribute */
+::placeholder{
+    color: aqua;
+    opacity: 1;
+}
+/* this is for styling internet explorer browser */
+:-ms-input-placeholder{
+    color: aqua;
+}
+/* this is for styling microsoft edge */
+::-ms-input-placeholder{
+    color: aqua;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: orange;
+    margin: 15%;
+}
+table{
+    width: 100%;
+    color: white;
+    /* border-spacing: 100px; */
+}
+th{
+    text-align: left;
+    background-color: #cccc;
+}
+tr:nth-child(odd) {
+    background-color: brown;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: black;
+    text-align: center;
+}
+caption{
+    color: black;
+}
+table,th,td{
+    border: 2px solid aqua;
+    border-collapse: collapse;
+}
+th,td, caption{
+    padding: 11px;
+}
